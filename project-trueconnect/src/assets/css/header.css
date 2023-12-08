@@ -1,0 +1,25 @@
+img {
+    margin-left: 20px;
+    width: 231px;
+    height: 64px;
+    background-image: url(<path-to-image>), no-repeat;
+}
+
+/* ul-li */
+.header-ul li:hover {
+    transition: 0.3s;
+    color: #FF0054;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header-homepage {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.footer-homepage {
+    margin: 0;
+    padding: 0;
+}

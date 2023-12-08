@@ -1,0 +1,92 @@
+.container-aboutus {
+    background-color: #fff;
+    min-height: 1000px;
+    margin-top: 96px;
+}
+
+.container-aboutus h3,p, li{
+    display: flex;
+    text-align: justify;
+}
+
+.container-aboutus .heading1-about-us,.heading2-about-us, .list-paragraph, .heading3-about-us {
+    font-family: Lora;
+    line-height: normal;
+    font-style: normal;
+}
+
+/* heading 1 */
+.container-aboutus .heading1-about-us {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0DC5AE;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+/* heading 2 */
+.container-aboutus .heading2-about-us {
+    font-size: 32px;
+    font-weight: 600;
+    color: #212B36;
+}
+
+/* paragraph 1 */
+.container-aboutus .paragraph1-about-us {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #637381;
+    width: 80%;
+}
+
+/* paragraph 2 */
+.container-aboutus .paragraph2-about-us {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: #212B36;
+}
+
+
+/* img */
+.container-aboutus .img2-about-us {
+    margin-top: 40px;
+}
+.container-aboutus .img2-about-us img{
+    width: 324px;
+    height: 252px;
+    border-radius: 16px;
+}
+
+/* list-paragraph, li */
+.container-aboutus .list-paragraph {
+    list-style-type: none;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    color: #222831;
+    margin-bottom: 24px;
+}
+
+.container-aboutus .list-paragraph li {
+    padding: 12px 12px;
+    width: 100%;
+}
+
+.container-aboutus .list-paragraph li:hover {
+    background-color: #0DC5AE;
+    color: #fff;
+}
+
+.container-aboutus .heading3-about-us {
+    font-size: 32px;
+    font-weight: 600;
+    color: #FF0054;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}

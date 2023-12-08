@@ -1,0 +1,58 @@
+.container-team {
+    background-color: #161C24;
+    min-height: 600px;
+}
+
+/* trùng css */
+.container-team .heading-team,.paragraph-team,.heading4-team,.span-team {
+    font-style: normal;
+}
+
+.container-team .paragraph-team, .heading4-team, .span-team {
+    font-family: Poppins;
+}
+
+.container-team .heading-team ,.heading4-team {
+    line-height: normal;
+}
+
+.container-team .paragraph-team, .span-team {
+    font-weight: 400;
+}
+
+.container-team .heading-team {
+    font-family: Lora;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container-team .paragraph-team {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 24px;
+    text-align: justify;
+    width: 80%;
+}
+
+.container-team .img-team {
+    width: 100%;
+    height: 363px;
+    margin: 0;
+    background-color: #ccc;
+}
+.container-team .heading4-team {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.container-team .span-team {
+    font-size: 13px;
+    line-height: 24px;
+    color: #919EAB;
+}
+
+.container-team .card-team {
+    background-color: #242121;
+    margin: 0 6px;
+}

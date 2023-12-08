@@ -1,0 +1,42 @@
+.container-contact {
+    background:  linear-gradient(270deg, #161C24 50%, rgba(22, 28, 36, 0.00) 100%);
+    min-height: 500px;
+}
+
+.container-contact .heading-contact {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    color: #26edd5;
+    text-align: start;
+    font-family: Lora;
+}
+
+.container-contact .list-contact {
+    list-style-type: none;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 18px;
+    text-align: start;
+    color: #fff;
+}
+
+.container-contact .list-contact li {
+    width: 80%;
+    padding: 12px 8px;
+}
+
+.container-contact .form-item {
+    margin-top: 100px;
+}
+
+.container-contact .form-item .form-input{
+    background-color: rgba(145, 158, 171, 0.08);
+    color: #fff;
+    border: none;
+    height: 46px;
+}
+
+.container-contact .form-item  ::-webkit-input-placeholder {
+    color: #fff;
+}

@@ -1,0 +1,35 @@
+.homepage {
+    background-color: #F9F0EC;
+    padding-top: 96px;
+    min-height: 720px;
+}
+
+/* heading */
+.homepage .heading-homepage {
+    font-size: 64px;
+    font-weight: 700;
+    background: linear-gradient(to right, #0DC5AE, #FF0054);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* paragraph */
+.homepage .paragraph{
+    display: flex;
+    justify-content: center;
+}
+.homepage p {
+    display: flex;
+    width: 50%;
+    color: var(--Text-2, #637381);
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* input */
+.input-search {
+    margin-top: 40px;
+    padding-bottom: 40px;
+}

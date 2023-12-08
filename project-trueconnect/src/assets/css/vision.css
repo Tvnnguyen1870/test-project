@@ -1,0 +1,41 @@
+.container-vision {
+    background-color: #F9F0EC;
+    min-height: 700px;
+}
+
+.container-vision .heading-vision {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0DC5AE;
+    margin-top: 32px;
+    margin-bottom: 40px;
+    font-family: Lora;
+    line-height: normal;
+    font-style: normal;
+}
+
+.container-vision .card-vision .heading5-vision {
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #FF0054;
+    padding-bottom: 12px;
+}
+
+.container-vision .card-vision .paragraph-vision {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    color: #212B36;
+    text-align: justify;
+}
+
+.container-vision .card-vision {
+    margin: 8px;
+    padding: 8px;
+    box-shadow: 0px 10px 20px -4px rgba(0, 95, 183, 0.15);
+}

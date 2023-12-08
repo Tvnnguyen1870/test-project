@@ -1,0 +1,39 @@
+.container-pagetwo {
+    background-color: #F9F0ED;
+    min-height: 750px;
+}
+
+.container-pagetwo .heading-ecosystem {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0DC5AE;
+    display: flex;
+    justify-content: start;
+}
+
+.container-pagetwo .list-ecosystem {
+    list-style-type: none;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 20px;
+   text-align: start;
+   color: #222831;
+}
+
+.container-pagetwo .list-ecosystem li {
+    padding: 12px 16px 8px 24px;
+    width: 100%;
+}
+
+.container-pagetwo .list-ecosystem li:hover {
+    color: #fff;
+    background-color: #FF5722;
+}
+
+.container-pagetwo .img-ecosystem img{
+    width: 693px;
+    height: 700px;
+    float: right;
+    background: url(<path-to-image>), -219px 0px / 164.069% 117.554% no-repeat;
+    
+}

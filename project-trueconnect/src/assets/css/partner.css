@@ -1,0 +1,15 @@
+.container-partner {
+    min-height: 500px;
+    margin-bottom: 40px;
+}
+
+.container-partner h2 {
+    color: #0DC5AE;
+    font-size: 40px;
+}
+
+.container-partner img{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(<path-to-image>), no-repeat;
+}
