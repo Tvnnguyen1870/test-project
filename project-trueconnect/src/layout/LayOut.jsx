@@ -62,7 +62,7 @@ const LayOut = () => {
                 paddingBottom: 12,
               }}
             >
-              <li>
+              <li onClick={() => toHome()}>
                 <img src="/src/assets/trueconnect.jpg" alt="" />
               </li>
               <li onClick={() => toHome()}>Trang chủ</li>
