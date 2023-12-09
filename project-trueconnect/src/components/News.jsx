@@ -5,7 +5,7 @@ const News = () => {
     <div className="container-news">
       <Row>
         <Col span={2} />
-        <Col span={18}>
+        <Col span={20}>
           <Row
             style={{
               marginBottom: 40,

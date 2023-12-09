@@ -124,7 +124,7 @@ const Vision = () => {
                 <Col span={24}>
                   <Card
                     style={{
-                      paddingBottom: 36,
+                      paddingBottom: 14,
                     }}
                     className="card-vision"
                   >

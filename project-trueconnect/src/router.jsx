@@ -3,6 +3,7 @@ import LayOut from "./layout/LayOut";
 import Product from "./components/Product";
 import ContainerOne from "./components/ContainerOne";
 import ContainerAboutUs from "./components/aboutUs/ContainerAboutUs";
+import ContainerDetailProduct from "./components/detailproduct/ContainerDetailProduct";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/product",
         element: <Product />,
+      },
+      {
+        path: "/detailproduct",
+        element: <ContainerDetailProduct />,
       },
     ],
   },

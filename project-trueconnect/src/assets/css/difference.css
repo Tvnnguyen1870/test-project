@@ -1,0 +1,38 @@
+.container-difference {
+    min-height: 600px;
+    background-color: #fff;
+}
+
+.container-difference .heading-difference {
+    color: #0DC5AE;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+/* css trùng */
+.container-difference span, ul li, .heading-difference {
+    font-style: normal;
+    line-height: normal;
+    font-family: Lora;
+}
+
+.container-difference span {
+    color: #212B36;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.container-difference ul li {
+    color: #525560;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+.container-difference ul .li-icon2,.li-icon1 {
+    justify-content: center;
+    
+}

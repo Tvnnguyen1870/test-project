@@ -1,0 +1,87 @@
+.container-serviceprice {
+    min-height: 600px;
+    background-color: #F9F0EC;
+}
+
+/* css heading */
+.container-serviceprice .heading-serviceprice {
+    color: #0DC5AE;
+    display: flex;
+    font-family: Lora;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+
+/* css paragrap */
+.container-serviceprice .para-service-price {
+    color: #637381;
+    font-style: normal;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+}
+
+/* css card */ 
+.container-serviceprice .container-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-serviceprice .container-card .heading-card {
+    color: #0DC5AE;
+    font-family: Barlow;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 20px;
+}
+
+.container-serviceprice .container-card .para-card {
+    color: #212B36;
+    text-align: right;
+    font-family: Barlow;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px; 
+}
+
+.container-serviceprice .container-card .year {
+    color: #919EAB;
+    text-align: right;
+    font-family: Barlow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+/* css ul li-card */
+.container-serviceprice .container-card .list-card {
+    margin-top: 12px;
+    list-style-type: none;
+}
+
+.container-serviceprice .container-card .list-card li{
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* css icon-card */
+.container-serviceprice .container-card .list-card .icon-card {
+    color: #FA541C;
+    padding-right: 12px;
+}

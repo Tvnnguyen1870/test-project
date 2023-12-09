@@ -17,6 +17,9 @@ const LayOut = () => {
   const toAboutUs = () => {
     navigate("/aboutus");
   };
+  const toDetailProduct = () => {
+    navigate("/detailproduct");
+  };
 
   const headerStyle = {
     color: "#fff",
@@ -57,9 +60,9 @@ const LayOut = () => {
                 listStyleType: "none",
                 display: "flex",
                 justifyContent: "space-between",
+                alignItems: "center",
                 fontWeight: 750,
                 fontSize: 20,
-                paddingBottom: 12,
               }}
             >
               <li onClick={() => toHome()}>
@@ -69,7 +72,7 @@ const LayOut = () => {
               <li onClick={() => toAboutUs()}>Về chúng tôi</li>
               <li onClick={() => toProduct()}>Sản Phẩm và dịch vụ</li>
               <li>Tin tức</li>
-              <li>Trải nghiệm</li>
+              <li onClick={() => toDetailProduct()}>Trải nghiệm</li>
               <li>Liên hệ</li>
             </ul>
           </Header>

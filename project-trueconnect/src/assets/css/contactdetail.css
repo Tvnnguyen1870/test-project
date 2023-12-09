@@ -1,0 +1,27 @@
+.container-contact-detail {
+    min-height: 520px;
+    background-color: #fff;
+}
+
+.container-contact-detail .form-item {
+    background-color: #0DC5AE;
+}
+
+.container-contact-detail .form-item .form-input {
+    margin-left: 24px;
+}
+
+
+/* css ul-li */
+.container-contact-detail .list-contact {
+    list-style-type: none;
+}
+
+.container-contact-detail .list-contact .span-contact {
+    color: #FF0054;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}

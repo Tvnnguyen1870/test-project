@@ -1,0 +1,59 @@
+.container-introduce {
+    background-color: #fff;
+    min-height: 700px;
+}
+
+/* css trùng */
+.container-introduce .heading-introduce,.heading-paragraph-introduce {
+    font-family: Lora;
+    font-style: normal;
+    line-height: normal;
+}
+
+.container-introduce .heading-paragraph-introduce, .paragraph-introduce {
+    color:  #212B36;
+}
+
+/* css heading */
+.container-introduce .heading-introduce {
+    display: flex;
+    color: #0DC5AE;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.container-introduce .heading-paragraph-introduce {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* css paragraph */
+.container-introduce .paragraph-introduce {
+    text-align: justify;
+    font-style: normal;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+/* css img trùng */
+.container-introduce .img1-introduce img, .img2-introduce img {
+    width: 100%;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+/* css img */
+.container-introduce .img1-introduce img {
+    height: 326px;
+    border-radius: 16px;
+}
+
+.container-introduce .img2-introduce img {
+    height: 338px;
+    border-radius: 21px;
+}
