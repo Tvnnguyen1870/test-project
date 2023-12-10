@@ -6,7 +6,7 @@ import HomePageTwo from "./HomePageTwo";
 import News from "./News";
 import Partner from "./Partner";
 
-const ContainerOne = () => {
+const ContainerHome = () => {
   return (
     <div>
       <HomePage />
@@ -20,4 +20,4 @@ const ContainerOne = () => {
   );
 };
 
-export default ContainerOne;
+export default ContainerHome;

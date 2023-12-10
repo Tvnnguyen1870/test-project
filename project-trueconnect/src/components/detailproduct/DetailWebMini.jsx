@@ -25,10 +25,10 @@ const DetailWebMini = () => {
             </Row>
             <Row>
               <p className="paragraph-webmini">
-                Website Mini là một trang web đơn trang, tập trung vàonội dung
-                quan trọng nhất. Bạn có thể sử dụng nó để giớithiệu sản phẩm,
+                Website Mini là một trang web đơn trang, tập trung vào nội dung
+                quan trọng nhất. Bạn có thể sử dụng nó để giới thiệu sản phẩm,
                 dịch vụ hoặc sự kiện đặc biệt của mình.Với giao diện thân thiện
-                và tốc độ tải trang nhanh,Website Mini tạo ra trải nghiệm tốt
+                và tốc độ tải trang nhanh, Website Mini tạo ra trải nghiệm tốt
                 cho khách hàng
               </p>
             </Row>

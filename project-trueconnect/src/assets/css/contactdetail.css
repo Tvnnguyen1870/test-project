@@ -3,6 +3,7 @@
     background-color: #fff;
 }
 
+/* css form */
 .container-contact-detail .form-item {
     background-color: #0DC5AE;
 }
@@ -11,6 +12,18 @@
     margin-left: 24px;
 }
 
+/* css icon */
+.container-contact-detail .icon-contact {
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #FF0054;
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+}
 
 /* css ul-li */
 .container-contact-detail .list-contact {
@@ -24,4 +37,34 @@
     font-style: normal;
     font-weight: 700;
     line-height: 20px;
+    display: flex;
+}
+
+.container-contact-detail .list-contact li {
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+/* css heading icon */
+.container-contact-detail .heading-contact  {
+    color:  #0E1F51;
+    text-align: center;
+    width: 100%;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+/* css icon2 */
+.container-contact-detail .icon2-contact  {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-self: center;
+    background-color: #ea004e;
+    color: #fff;
+    border-radius: 8px;
 }

@@ -50,6 +50,7 @@ const ContactDetailProduct = () => {
                 style={{
                   minHeight: 400,
                   maxWidth: 600,
+                  borderRadius: 16,
                 }}
                 validateMessages={validateMessages}
               >
@@ -88,7 +89,7 @@ const ContactDetailProduct = () => {
                       height: 120,
                     }}
                     className="form-input"
-                    placeholder="Ghi chú "
+                    placeholder="Lời nhắn "
                   />
                 </Form.Item>
                 <Form.Item>
@@ -106,33 +107,78 @@ const ContactDetailProduct = () => {
             </Col>
             <Col span={10}>
               {" "}
-              <Card style={{ width: 300, height: 400 }}>
-                <ul className="list-contact">
-                  <span className="span-contact">Hotline</span>
-                  <li>
-                    <PhoneOutlined className="icon-contact" />
-                    0888 136 622
-                  </li>
-                  <span className="span-contact">Gửi Email</span>
-                  <li>
-                    <MailOutlined className="icon-contact" />
-                    dvkh.trueconnect@gmail.com
-                  </li>
-                  <span className="span-contact">Địa chỉ của chúng tôi</span>
-                  <li>
-                    <EnvironmentOutlined />
-                    80, 22/45/69B Hoàng Văn Thái
-                  </li>
-                </ul>
-                <h5 className="heading-contact">Follow chúng tôi</h5>
-                <ul className="list-icon">
-                  <li>
-                    <LinkedinOutlined />
-                    <InstagramOutlined />
-                    <FacebookOutlined />
-                    <TwitterOutlined />
-                  </li>
-                </ul>
+              <Card style={{ width: 300, height: 400, border: "none" }}>
+                <Row>
+                  <Col span={6}>
+                    <Row>
+                      <PhoneOutlined className="icon-contact" />
+                    </Row>
+                    <Row>
+                      <MailOutlined
+                        style={{
+                          marginTop: 20,
+                        }}
+                        className="icon-contact"
+                      />
+                    </Row>
+                    <Row>
+                      <EnvironmentOutlined
+                        style={{
+                          marginTop: 20,
+                        }}
+                        className="icon-contact"
+                      />
+                    </Row>
+                  </Col>
+                  <Col span={18}>
+                    <ul className="list-contact">
+                      <div>
+                        <span className="span-contact">Hotline</span>
+                        <li> 0888 136 622</li>
+                      </div>
+
+                      <div
+                        style={{
+                          marginTop: 28,
+                        }}
+                      >
+                        <span className="span-contact">Gửi Email</span>
+                        <li>dvkh.trueconnect@gmail.com</li>
+                      </div>
+
+                      <div
+                        style={{
+                          marginTop: 28,
+                        }}
+                      >
+                        <span className="span-contact">
+                          Địa chỉ của chúng tôi
+                        </span>
+                        <li>80, 22/45/69B Hoàng Văn Thái</li>
+                      </div>
+                    </ul>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col
+                    style={{
+                      marginTop: 48,
+                    }}
+                    span={24}
+                  >
+                    <Row>
+                      <h5 className="heading-contact">Follow chúng tôi</h5>
+                    </Row>
+                    <Row
+                      style={{ marginTop: 24, justifyContent: "space-around" }}
+                    >
+                      <LinkedinOutlined className="icon2-contact" />
+                      <InstagramOutlined className="icon2-contact" />
+                      <FacebookOutlined className="icon2-contact" />
+                      <TwitterOutlined className="icon2-contact" />
+                    </Row>
+                  </Col>
+                </Row>
               </Card>
             </Col>
           </Row>

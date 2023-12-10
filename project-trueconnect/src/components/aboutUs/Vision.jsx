@@ -68,18 +68,10 @@ const Vision = () => {
                       }}
                       className="paragraph-vision"
                     >
-                      <span
-                        style={{
-                          color: "#0DC5AE",
-                          width: "30%",
-                        }}
-                      >
-                        Với khách hàng:
-                      </span>{" "}
-                      Tối ưu chi phí, thúc đẩy áp dụng công nghệ thông tin,
-                      chuyển đổi số vào hoạt động kinh doanh của khách hàng, cải
-                      thiện tính bền vững của hoạt động kinh doanh phía khách
-                      hàng
+                      Với khách hàng: Tối ưu chi phí, thúc đẩy áp dụng công nghệ
+                      thông tin, chuyển đổi số vào hoạt động kinh doanh của
+                      khách hàng, cải thiện tính bền vững của hoạt động kinh
+                      doanh phía khách hàng
                     </p>
                     <p
                       style={{
@@ -87,18 +79,9 @@ const Vision = () => {
                       }}
                       className="paragraph-vision"
                     >
-                      <span
-                        style={{
-                          width: "25%",
-                          color: "#0DC5AE",
-                        }}
-                      >
-                        {" "}
-                        Với nội bộ:
-                      </span>{" "}
-                      Cùng đồng hành xây dựng sản phẩm, đồng thời trú trọng phát
-                      triển, nâng tầm bản thân, cùng chia sẻ lợi ích, khó khăn
-                      giữa doanh nghiệp và nhân sự
+                      Với nội bộ: Cùng đồng hành xây dựng sản phẩm, đồng thời
+                      trú trọng phát triển, nâng tầm bản thân, cùng chia sẻ lợi
+                      ích, khó khăn giữa doanh nghiệp và nhân sự
                     </p>
                   </Card>
                 </Col>

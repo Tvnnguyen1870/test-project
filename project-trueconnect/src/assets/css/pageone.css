@@ -1,5 +1,5 @@
 .container-pageone {
-    min-height: 1200px;
+    min-height: 1000px;
     padding-top: 100px;
     margin-bottom: 60px;
 }
@@ -31,15 +31,15 @@
     font-weight: 500;
 }
 
-.container-pageone h2 {
+.container-pageone .heading2-why {
     color: #023F3A;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 700;
     font-family: Lora;
 }
 
 .container-pageone .style-icon {
-    margin-top: 28px;
+    margin-top: 20px;
 }
 
 .container-pageone .container-img-icon {
@@ -48,10 +48,6 @@
     justify-content: center;
     align-items: flex-start;
     gap: 19px;
-}
-
-.container-pageone .container-img-icon-two {
-    margin-bottom: 31px;
 }
 
 .container-pageone .img-icon  {
@@ -83,4 +79,14 @@
     font-weight: 600;
     line-height: normal;
     color: #0DC5AE;
+}
+
+/* css content red */
+.container-pageone .content-red {
+    color: #FF0054;
+    font-size: 20px;
+}
+
+.container-pageone .content-red  li:hover {
+    cursor: pointer;
 }

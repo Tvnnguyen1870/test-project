@@ -29,7 +29,7 @@ const Introduce = () => {
                 </h3>
                 <p className="paragraph-introduce">
                   Dịch vụ phát triển website mini cung cấp cho khách hàng giải
-                  pháp đơn giản, tiện lợi để xây dựng trang web minicho doanh
+                  pháp đơn giản, tiện lợi để xây dựng trang web mini cho doanh
                   nghiệp hoặc cá nhân. Website mini thu hút sự chú ý của người
                   truy cập tới một nội dung cụ thể, tránh dàn trải và tạo ấn
                   tượng tốt nhất về sản phẩm của Quý khách hàng.
@@ -50,9 +50,9 @@ const Introduce = () => {
                 </h3>
                 <p className="paragraph-introduce">
                   TrueConnect cho phét tích hợp gian hàng online trên website
-                  mini nhằm đơn giản hoá hoạt động thương mạicủa Quý khách hàng,
-                  đồng thời giúp người mua có thểnhanh chóng tiếp cận sản phẩm
-                  mong muốn và thực hiện việc mua hàng.
+                  mini nhằm đơn giản hoá hoạt động thương mại của Quý khách
+                  hàng, đồng thời giúp người mua có thể nhanh chóng tiếp cận sản
+                  phẩm mong muốn và thực hiện việc mua hàng.
                 </p>
               </Card>
             </Col>

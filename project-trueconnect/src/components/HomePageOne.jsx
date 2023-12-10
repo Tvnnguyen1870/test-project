@@ -1,12 +1,13 @@
 import { Card, Col, Row } from "antd";
 import "../assets/css/pageone.css";
+import { RightOutlined } from "@ant-design/icons";
 
 const HomePageOne = () => {
   return (
     <div className="container-pageone">
       <Row>
-        <Col span={3} />
-        <Col span={9}>
+        <Col span={2} />
+        <Col span={10}>
           <h3>Công ty Cổ phần Công nghệ TrueConnect</h3>
           <p className="para-one">
             Chúng tôi hoạt động với mong muốn thúc đẩy quá trình kinh doanh và
@@ -51,7 +52,31 @@ const HomePageOne = () => {
                 />
                 <p className="paragraph-style">Lắng nghe</p>
               </Row>
-              <Row></Row>
+            </Col>
+          </Row>
+          <Row
+            style={{
+              height: 88,
+              marginTop: 40,
+            }}
+          >
+            <Col
+              style={{
+                display: "flex",
+                justifyContent: "flex-end",
+              }}
+              span={22}
+            >
+              <ul className="content-red">
+                <li>
+                  Xem thêm{" "}
+                  <RightOutlined
+                    style={{
+                      marginLeft: 12,
+                    }}
+                  />
+                </li>
+              </ul>
             </Col>
           </Row>
         </Col>
@@ -89,13 +114,9 @@ const HomePageOne = () => {
       </Row>
 
       {/* phần tại sao nên lựa chọn chúng tôi */}
-      <Row
-        style={{
-          height: 172,
-        }}
-      >
+      <Row>
         <Col span={24}>
-          <h2>Tại sao nên lựa chọn chúng tôi</h2>
+          <h2 className="heading2-why">Tại sao nên lựa chọn chúng tôi</h2>
         </Col>
       </Row>
       <Row>

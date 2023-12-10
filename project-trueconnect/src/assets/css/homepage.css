@@ -8,20 +8,17 @@
 .homepage .heading-homepage {
     font-size: 64px;
     font-weight: 700;
-    background: linear-gradient(to right, #0DC5AE, #FF0054);
+    background: linear-gradient(to right, #0bd5be, #ff0659);
     -webkit-background-clip: text;
     color: transparent;
+    text-align: start;
 }
 
 /* paragraph */
-.homepage .paragraph{
+.homepage .paragraph {
     display: flex;
-    justify-content: center;
-}
-.homepage p {
-    display: flex;
-    width: 50%;
-    color: var(--Text-2, #637381);
+    width: 80%;
+    color: #637381;
     text-align: justify;
     font-size: 16px;
     font-weight: 400;
@@ -29,7 +26,7 @@
 }
 
 /* input */
-.input-search {
+.homepage .input-search {
     margin-top: 40px;
-    padding-bottom: 40px;
+    width: 80%;
 }
