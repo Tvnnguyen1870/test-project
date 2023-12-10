@@ -22,7 +22,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="container-contact">
+    <div id="contact" className="container-contact">
       <Row>
         <Col span={3} />
         <Col span={8}>

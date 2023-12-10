@@ -4,6 +4,10 @@
     min-height: 720px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* heading */
 .homepage .heading-homepage {
     font-size: 64px;

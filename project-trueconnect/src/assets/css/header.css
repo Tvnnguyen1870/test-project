@@ -13,6 +13,14 @@ img {
     cursor: pointer;
 }
 
+.header-ul li a{
+    color: #000 !important;
+}
+
+.header-ul li a:hover{
+    color: #FF0054 !important;
+}
+
 .header-homepage {
     width: 100%;
     position: fixed;

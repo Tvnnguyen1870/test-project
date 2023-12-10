@@ -15,10 +15,7 @@ const LayOut = () => {
     navigate("/product");
   };
   const toAboutUs = () => {
-    navigate("/aboutus");
-  };
-  const toDetailProduct = () => {
-    navigate("/detailproduct");
+    navigate("/aboutUs");
   };
 
   const headerStyle = {
@@ -66,14 +63,22 @@ const LayOut = () => {
               }}
             >
               <li onClick={() => toHome()}>
-                <img src="/src/assets/trueconnect.jpg" alt="" />
+                <a href="#">
+                  <img src="/src/assets/trueconnect.jpg" alt="" />
+                </a>
               </li>
-              <li onClick={() => toHome()}>Trang chủ</li>
+              <li onClick={() => toHome()}>
+                <a href="#">Trang chủ</a>
+              </li>
               <li onClick={() => toAboutUs()}>Về chúng tôi</li>
               <li onClick={() => toProduct()}>Sản Phẩm và dịch vụ</li>
-              <li>Tin tức</li>
-              <li onClick={() => toDetailProduct()}>Trải nghiệm</li>
-              <li>Liên hệ</li>
+              <li onClick={() => toHome()}>
+                <a href="#news">Tin tức</a>
+              </li>
+              <li>Trải nghệm</li>
+              <li onClick={() => toHome()}>
+                <a href="#contact">Liên hệ</a>
+              </li>
             </ul>
           </Header>
           <Content className="content-homepage" style={contentStyle}>

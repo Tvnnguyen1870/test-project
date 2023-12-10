@@ -4,6 +4,9 @@
     min-height: 600px;
 }
 
+/* css trùng */
+
+
 .container-news p,h3 {
     display: flex;
     text-align: justify;
@@ -12,11 +15,10 @@
 .container-news .heading-news {
     font-family: Lora;
     font-size: 40px;
-    font-style: normal;
     font-weight: 700;
+    font-style: normal;
     line-height: normal;
     color: #0DC5AE;
-    padding-left: 20px;
 }
 
 .container-news .paragraph-news {
@@ -26,10 +28,9 @@
     font-weight: 400;
     line-height: 24px;
     color: #637381;
-    padding-left: 20px;
 }
 
-.container-news .container-img{
+.container-news .container-img-new{
     position: relative;
 }
 
@@ -53,6 +54,7 @@
     font-weight: 700;
     line-height: 54px;
     padding-left: 32px;
+    color: #b70000;
 }
 
 /* paragraph in img */
@@ -62,7 +64,7 @@
     font-style: normal;
     font-weight: 500;
     width: 100%;
-    padding-left: 32px;
+    padding-left: 5%;
     line-height: 32px;
-    color: #000000;
+    color: #b70000;
 }

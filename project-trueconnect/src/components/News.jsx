@@ -1,8 +1,9 @@
 import { Card, Col, Row } from "antd";
 import "../assets/css/news.css";
+
 const News = () => {
   return (
-    <div className="container-news">
+    <div id="news" className="container-news">
       <Row>
         <Col span={2} />
         <Col span={20}>
@@ -25,7 +26,7 @@ const News = () => {
           </Row>
           <Row>
             <Col className="img-one-container" span={12}>
-              <div className="container-img">
+              <div className="container-img-new">
                 <img
                   className="img-news-one"
                   src="./src/assets/news1.jpg"

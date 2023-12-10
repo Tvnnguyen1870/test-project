@@ -81,7 +81,7 @@ const FooterPage = () => {
         <Col
           span={14}
           style={{
-            paddingRight: 220,
+            paddingRight: "15%",
           }}
         >
           <Link to="https://www.tiktok.com/">

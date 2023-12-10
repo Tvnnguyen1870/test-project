@@ -1,47 +1,200 @@
-import { Col, Row } from "antd";
+import { Card, Col, Row } from "antd";
 import "../assets/css/product.css";
+import { useNavigate } from "react-router-dom";
 
 const Product = () => {
+  const navigate = useNavigate();
+
+  const toDetailWebMini = () => {
+    navigate("/detailproduct");
+  };
   return (
     <div className="container-product">
-      <div className="product-content">
-        <Row>
-          <Col span={8}>
-            <Row className="content">
-              <img src="./src/assets/product1.jpg" alt="" />
-              <span>Website Mini</span>
-              <p>Tạo website đơn giản tích hợp gian hàng online.</p>
+      <Row>
+        <Col span={2} />
+        <Col
+          style={{
+            marginTop: 100,
+          }}
+          span={20}
+        >
+          <div className="product-content">
+            <Row
+              style={{
+                paddingTop: 40,
+              }}
+            >
+              <Col className="col-container-content" span={8}>
+                <img
+                  style={{
+                    marginTop: 20,
+                    width: 78.623,
+                    height: 83,
+                  }}
+                  onClick={() => toDetailWebMini()}
+                  className="img-product"
+                  src="./src/assets/product1.jpg"
+                />
+                <Card
+                  style={{
+                    border: "none",
+                  }}
+                >
+                  <h5
+                    onClick={() => toDetailWebMini()}
+                    className="heading5-product"
+                  >
+                    Website Mini
+                  </h5>{" "}
+                  <p className="paragraph-product">
+                    Tạo website đơn giản tích hợp gian hàng online
+                  </p>
+                </Card>
+              </Col>
+              <Col className="col-container-content" span={8}>
+                <img
+                  onClick={() => toDetailWebMini()}
+                  style={{
+                    marginTop: 20,
+                    width: 82,
+                    height: 82,
+                  }}
+                  className="img-product"
+                  src="./src/assets/product2.jpg"
+                />
+                <Card
+                  style={{
+                    border: "none",
+                  }}
+                >
+                  <h5
+                    onClick={() => toDetailWebMini()}
+                    className="heading5-product"
+                  >
+                    Danh thiếp điện tử
+                  </h5>{" "}
+                  <p className="paragraph-product">
+                    Xây dựng thương hiệu cá nhân trên mọi nền tảng
+                  </p>
+                </Card>
+              </Col>
+              <Col className="col-container-content" span={8}>
+                <img
+                  onClick={() => toDetailWebMini()}
+                  style={{
+                    marginTop: 20,
+                    width: 83,
+                    height: 83,
+                  }}
+                  className="img-product"
+                  src="./src/assets/product3.jpg"
+                />
+                <Card
+                  style={{
+                    border: "none",
+                  }}
+                >
+                  <h5
+                    onClick={() => toDetailWebMini()}
+                    className="heading5-product"
+                  >
+                    Dịch vụ Phát triển website
+                  </h5>{" "}
+                  <p className="paragraph-product">
+                    Xây dựng và nhập liệu website phù hợp cho doanh nghiệp
+                  </p>
+                </Card>
+              </Col>
             </Row>
-          </Col>
-          <Col span={8}>
-            <Row className="content">
-              <img src="./src/assets/product2.jpg" alt="" />
-              <span>Danh thiếp điện tử</span>
-              <p>Xây dựng thương hiệu cá nhân trên mọi nền tảng.</p>
+            <Row
+              style={{
+                paddingTop: 28,
+              }}
+            >
+              <Col className="col-container-content" span={8}>
+                <img
+                  onClick={() => toDetailWebMini()}
+                  style={{
+                    marginTop: 20,
+                    width: 79,
+                    height: 82,
+                  }}
+                  className="img-product"
+                  src="./src/assets/product6.jpg"
+                />
+                <Card
+                  style={{
+                    border: "none",
+                  }}
+                >
+                  <h5
+                    onClick={() => toDetailWebMini()}
+                    className="heading5-product"
+                  >
+                    Dịch vụ Công nghệ thông tin cho thuê
+                  </h5>{" "}
+                  <p className="paragraph-product">
+                    Phát triển phần mềm CNTT phục vụ cho Doanh nghiệp
+                  </p>
+                </Card>
+              </Col>
+              <Col className="col-container-content" span={8}>
+                <img
+                  onClick={() => toDetailWebMini()}
+                  style={{
+                    marginTop: 20,
+                    width: 76,
+                    height: 83,
+                  }}
+                  className="img-product"
+                  src="./src/assets/product4.jpg"
+                />
+                <Card
+                  style={{
+                    border: "none",
+                  }}
+                >
+                  <h5
+                    onClick={() => toDetailWebMini()}
+                    className="heading5-product"
+                  >
+                    Dịch vụ Quản trị, vận hành và tối ưu hệ thống (Managed
+                    Services)
+                  </h5>{" "}
+                </Card>
+              </Col>
+              <Col className="col-container-content" span={8}>
+                <img
+                  onClick={() => toDetailWebMini()}
+                  style={{
+                    marginTop: 20,
+                    width: 83,
+                    height: 83,
+                  }}
+                  className="img-product"
+                  src="./src/assets/product5.jpg"
+                />
+                <Card
+                  style={{
+                    border: "none",
+                  }}
+                >
+                  <h5
+                    onClick={() => toDetailWebMini()}
+                    className="heading5-product"
+                  >
+                    Dịch vụ Tư vấn chuyển đổi số
+                  </h5>{" "}
+                  <p className="paragraph-product">
+                    Tư vấn tận dụng Công nghệ để tối ưu hóa hoạt động doanh
+                    nghiệp
+                  </p>
+                </Card>
+              </Col>
             </Row>
-            <Row className="content">
-              <img src="./src/assets/product4.jpg" alt="" />
-              <span>
-                Dịch vụ Quản trị, vận hành và tối ưu hệ thống (Managed Services)
-              </span>
-            </Row>
-          </Col>
-          <Col span={8}>
-            <Row className="content">
-              <img src="./src/assets/product3.jpg" alt="" />
-              <span>Dịch vụ Phát triển website</span>
-              <p>Xây dựng và nhập liệu website phù hợp cho doanh nghiệp.</p>
-            </Row>
-            <Row className="content">
-              <img src="./src/assets/product5.jpg" alt="" />
-              <span>Dịch vụ Tư vấn chuyển đổi số</span>
-              <p>
-                Tư vấn tận dụng Công nghệ để tối ưu hóa hoạt động doanh nghiệp.
-              </p>
-            </Row>
-          </Col>
-        </Row>
-      </div>
+          </div>
+        </Col>
+      </Row>
     </div>
   );
 };
